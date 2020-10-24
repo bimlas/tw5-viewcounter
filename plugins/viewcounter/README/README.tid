@@ -1,0 +1,17 @@
+tags:
+title: $:/plugins/bimlas/viewcounter/README/README
+type: text/vnd.tiddlywiki
+
+! Viewcounter
+
+* https://bimlas.gitlab.io/tw5-viewcounter/ (demo + install)
+* https://gitlab.com/bimlas/tw5-viewcounter/ (main repository)
+* https://github.com/bimlas/tw5-viewcounter/ (mirror, ''please star if you like the plugin'')
+
+!! Installation instructions
+
+To add the plugin to your own ~TiddlyWiki5, just drag this link to the browser window:
+
+$:/plugins/bimlas/viewcounter
+
+For other installation options see the repositories above.

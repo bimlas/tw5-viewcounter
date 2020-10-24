@@ -1,0 +1,7 @@
+created: 20201021083611785
+modified: 20201024195206109
+tags: $:/tags/ViewTemplate
+title: View template
+type: text/vnd.tiddlywiki
+
+Number of views: <$text text={{{ [all[current]addprefix[$:/viewcounters/]get[count]] }}}/> (<$text text={{{ [all[current]addprefix[$:/viewcounters/]get[last]] }}}/>)

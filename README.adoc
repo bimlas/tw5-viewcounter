@@ -1,0 +1,22 @@
+:demo-page: https://bimlas.gitlab.io/tw5-viewcounter/
+:json: https://bimlas.gitlab.io/tw5-viewcounter/tw5-viewcounter.json
+
+= Viewcounter plugin for TiddlyWiki 5
+
+For details, see the link:{demo-page}[demo page].
+
+* https://bimlas.gitlab.io/tw5-viewcounter/ (demo + install)
+* https://gitlab.com/bimlas/tw5-viewcounter/ (main repository)
+* https://github.com/bimlas/tw5-viewcounter/ (mirror, **please star if you like the plugin**)
+
+== How to install?
+
+=== Drag-n-drop
+
+- Open the link:{demo-page}[demo page]
+- Drag-n-drop the plugin tiddler in to your wiki
+
+=== Copy to directory based (Node.js) wiki
+
+- Clone or download this repository
+- Copy the `plugins` directory to the root directory of your wiki

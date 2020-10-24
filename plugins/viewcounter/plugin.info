@@ -1,0 +1,10 @@
+{
+	"title": "$:/plugins/bimlas/viewcounter",
+	"description": "Count the opening of tiddlers and store the time of the last opening",
+	"author": "bimlas",
+	"version": "1.0.0",
+	"core-version": ">=5.1.22",
+	"source": "https://gitlab.com/bimlas/tw5-viewcounter",
+	"plugin-type": "plugin",
+	"list": "README/README"
+}

@@ -1,0 +1,38 @@
+created: 20201021084633638
+modified: 20201024195709296
+title: README
+type: text/vnd.tiddlywiki
+
+A [[TiddlyWiki|https://tiddlywiki.com/]] plugin that counts the opening of tiddlers and stores the time of the last opening. The [[View template]] displays this data at the bottom of each tiddler.
+
+Inspired by https://notes.andymatuschak.org/z3N113rxPFreW9xUkLkUFomr2LUqfXbdCo3M and https://groups.google.com/g/tiddlywiki/c/7kGzLwPcCIk
+
+!! Usage ideas
+
+Open this tiddler in edit mode to view the code.
+
+!!! An MRU list can be created based on the last view date
+
+<ul>
+  <$list filter="[prefix[$:/viewcounters/]!nsort[last]]">
+    <li>{{!!last}} <$link to={{{ [all[current]removeprefix[$:/viewcounters/]] }}}/></li>
+  </$list>
+</ul>
+
+!!! You can create a custom search algorithm that displays the most open tiddler (based on the counts) at the top of the list
+
+<ul>
+  <$list filter="[prefix[$:/viewcounters/]!nsort[count]]">
+    <li>{{!!count}} <$link to={{{ [all[current]removeprefix[$:/viewcounters/]] }}}/></li>
+  </$list>
+</ul>
+
+!! Installation
+
+* Make a backup from your wiki
+* Drag and drop [[View template]] and [[$:/plugins/bimlas/viewcounter]] to your wiki
+* Save it and reload
+
+!! Attention
+
+If you save to the cloud (Git, Dropbox, etc. saver), you may want to turn off autosave ($:/ControlPanel -> Saving -> General) because each time you open a tiddler, the wiki changes (saving the counts), thus the saver wants to save immediately.
