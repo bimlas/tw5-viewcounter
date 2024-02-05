@@ -1,13 +1,12 @@
-:demo-page: https://bimlas.gitlab.io/tw5-viewcounter/
-:json: https://bimlas.gitlab.io/tw5-viewcounter/tw5-viewcounter.json
+:demo-page: https://bimlas.github.io/tw5-viewcounter/
+:json: https://bimlas.github.io/tw5-viewcounter/tw5-viewcounter.json
 
 = Viewcounter plugin for TiddlyWiki 5
 
 For details, see the link:{demo-page}[demo page].
 
-* https://bimlas.gitlab.io/tw5-viewcounter/ (demo + install)
-* https://gitlab.com/bimlas/tw5-viewcounter/ (main repository)
-* https://github.com/bimlas/tw5-viewcounter/ (mirror, **please star if you like the plugin**)
+* https://bimlas.github.io/tw5-viewcounter/ (demo + install)
+* https://github.com/bimlas/tw5-viewcounter/ (**please star if you like the plugin**)
 
 == How to install?
 
